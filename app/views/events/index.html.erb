@@ -5,10 +5,8 @@
     <li>
       <a href="<%= event_path(event) %>">
         <%= event.title %>
-      </a>
-    </li>
-    <li>
-      <%= event.user.name %>
+      </a> hosted by <%= event.user.name %>.
+      Fee: <%= event.price %>
     </li>
   <% end %>
 </ul>
