@@ -1,9 +1,11 @@
-<h1><%= @event.title %></h1>
+<h3>Title:</h3><p><%= @event.title %></p>
 
-<p><%= @event.description %></p>
+<h3>Description:</h3><p><%= @event.description %></p>
 
-<p><%= @event.user.name %></p>
+<h3>Host:</h3><p><%= @event.user.name %></p>
 
-<p><%= @event.price %></p>
+<h3>Price:</h3><p><%= @event.price %></p>
 
-<p><%= @event.status %></p>
+<h3>Active? :</h3><p><%= @event.active %></p>
+
+<h3>Status:</h3><p><%= @event.status %></p>
